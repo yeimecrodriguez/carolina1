@@ -17,6 +17,7 @@ public class G2EJERCICIO2 {
         int radio,areacir,areacuadrado,areasomb,radio2;
         System.out.println("Ingrese el radio del circulo:");
         radio = teclado.nextInt();
+        radio = teclado.nextInt();
         areacir = (int) (Math.PI/(Math.pow(radio,2)));
         areacuadrado = (int) (2*(Math.pow(radio,2)));
         areasomb = (int) ((Math.PI*(Math.pow(radio, 2))) - (2*(Math.pow(radio, 2))));
