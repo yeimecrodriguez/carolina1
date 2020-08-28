@@ -20,9 +20,9 @@ public class G2EJERCICIO2 {
         radio = teclado.nextInt();
         radio = teclado.nextInt();
         areacir = (int) (Math.PI/(Math.pow(radio,2)));
-        areacuadrado = (int) (2*(Math.pow(radio,2)));
+        areacuadrado = (int) (4*(Math.pow(radio,2)));
         areasomb = (int) ((Math.PI*(Math.pow(radio, 2))) - (2*(Math.pow(radio, 2))));
-        System.out.println("el area de la parte sombreada es: "+areasomb);
+        System.out.println("el radio de la parte sombreada es: "+areasomb);
     }
     System.out.println("el area de la parte sombreada es: "+areasomb);
     }
