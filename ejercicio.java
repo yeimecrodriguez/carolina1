@@ -15,7 +15,7 @@ public class G2EJERCICIO2 {
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner teclado = new Scanner (System.in);
-        int radio,areacir,areacuadrado,areasomb,radio2;
+        int radio,areacir,areacuadrado,areasomb,radio2,radio3;
         System.out.println("Ingrese el radio del circulo:");
         radio = teclado.nextInt();
         radio = teclado.nextInt();
