@@ -26,4 +26,5 @@ public class G2EJERCICIO2 {
     }
     System.out.println("el area de la parte sombreada es: "+areasomb);
     }
+     System.out.println("Ingrese el radio del circulo:");
 }
