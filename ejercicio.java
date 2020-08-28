@@ -11,6 +11,7 @@ public class G2EJERCICIO2 {
     /**
      * @param args the command line arguments
      */
+
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner teclado = new Scanner (System.in);
@@ -23,5 +24,6 @@ public class G2EJERCICIO2 {
         areasomb = (int) ((Math.PI*(Math.pow(radio, 2))) - (2*(Math.pow(radio, 2))));
         System.out.println("el area de la parte sombreada es: "+areasomb);
     }
-    
+    System.out.println("el area de la parte sombreada es: "+areasomb);
+    }
 }
